@@ -2,8 +2,6 @@ package com.masai.day2;
 
 public abstract class Animal {
 
-	
-	
 	String  name;
 
 	public Animal() {
@@ -13,6 +11,7 @@ public abstract class Animal {
 
 	public Animal(String name) {
 		super();
+		
 		this.name = name;
 	}
 
@@ -24,15 +23,14 @@ public abstract class Animal {
 		this.name = name;
 	}
 	
-	 abstract void makeNoise();
+	
 	 
-	 
-	   void sleep()
+	 void sleep()
 	   {
-		   System.out.println(name + "is Sleeping");
+		   System.out.println(name + " is Sleeping");
 	   }
 	
-	   
+	   abstract void makeNoise();
 	   
 	   abstract void eat();
 	   

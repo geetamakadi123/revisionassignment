@@ -5,11 +5,9 @@ public class Cat  extends Animal{
 	
 	String nickname;
 	
-	
-	
-	
 	public Cat(String name, String nickname) {
 		super(name);
+		
 		this.nickname = nickname;
 	}
 
@@ -23,19 +21,7 @@ public class Cat  extends Animal{
 		// TODO Auto-generated constructor stub
 	}
 
-	@Override
-	void makeNoise() {
-		// TODO Auto-generated method stub
-		System.out.println("Cat is makingnose");
-		
-	}
-
-	@Override
-	void eat() {
-		// TODO Auto-generated method stub
-		System.out.println("Cat is Eating");
-	}
-
+	
 	public String getNickname() {
 		return nickname;
 	}
@@ -47,8 +33,22 @@ public class Cat  extends Animal{
 	
 	void jump()
 	{
-		System.out.println(nickname+" Cat is Juming");
+		System.out.println(nickname + " Cat is Juming");
 	}
+	
+	@Override
+	void makeNoise() {
+		// TODO Auto-generated method stub
+		System.out.println("Cat is makingnose!");
+		
+	}
+
+	@Override
+	void eat() {
+		// TODO Auto-generated method stub
+		System.out.println("Cat is Eating!");
+	}
+
 	
 	
 }

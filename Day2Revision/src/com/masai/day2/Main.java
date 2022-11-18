@@ -3,33 +3,9 @@ package com.masai.day2;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		// TODO Auto-generated method 
 		
-//	    Dog b = new Dog();
-//	    
-//	    b.breed = "labra";
-//	    b.name =   "Tommy";
-//		
-//	    
-//	    b.eat();
-//	    b.sleep();
-//	    b.makeNoise();
-//	    b.play();
-//		
-//	    
-//	    System.out.println("=================================");
-//	    Cat a = new Cat();
-//		 a.name = "chintu";
-//		 a.nickname = "intu";
-//		 
-//		 a.sleep();
-//		 a.makeNoise();
-//		 a.eat();
-//		 a.jump();
-		
-		
-		Animal a = new Dog("Tommmy", "labora");
+		Animal a = new Dog("alexa", "jini");
 		
 		Dog b = (Dog)a;
 		
@@ -41,9 +17,9 @@ public class Main {
 		System.out.println("============================================================");
 		
 		
-		Animal c = new Cat("kuta", "kutiya");
+		Animal c = new Cat("jony", "jimi");
 		
-		Cat d = (Cat)c;
+		  Cat d = (Cat)c;
 		  d.eat();
 		  d.jump();
 		  d.makeNoise();

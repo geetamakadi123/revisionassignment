@@ -5,14 +5,9 @@ public class Dog extends Animal{
 	
 	
 	String breed;
-	
-	
-	
-	
-	
-	
 	public Dog(String breed) {
 		super();
+		
 		this.breed = breed;
 	}
 
@@ -26,24 +21,22 @@ public class Dog extends Animal{
 		this.breed = breed;
 	}
 
+	
+	void play()
+	{
+		System.out.println(name + " " + breed + " is Playing");
+	}
+	
 	@Override
 	void makeNoise() {
 		// TODO Auto-generated method stub
-		  System.out.println("Dog is Makeingnoise");
+		  System.out.println("Dog is Makeingnoise!");
 	}
 
 	@Override
 	void eat() {
 		// TODO Auto-generated method stub
-		System.out.println("Dog is Eating");
-	}
-
-	
-	void play()
-	{
-		
-		
-		System.out.println(name+" "+ breed+" is Playing");
+		System.out.println("Dog is Eating!");
 	}
 	
 	
