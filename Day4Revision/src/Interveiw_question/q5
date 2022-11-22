@@ -1,0 +1,29 @@
+
+
+Ques 5: Explain the real situation use of HashMap, HashSet and LinkedList collections
+
+
+
+
+HashMap
+
+The HashMap class of the Java collections framework provides the functionality of the hash 
+table data structure. It stores elements in key/value pairs. Here, keys are unique identifiers
+ used to associate each value on a map. The HashMap class implements the Map interface.
+
+
+
+
+
+HashSet
+
+The HashSet is a class that implements the Set interface. It is used to store the objects in a hashtable; 
+a hashtable is a data structure, which stores data in an ArrayList. It provides quick access to the data 
+using the array index. We can insert, update, and remove the elements easily using a HashSet.
+
+
+LinkedList
+
+A linked list is a sequence of data structures, which are connected together via links.
+Linked List is a sequence of links which contains items. Each link contains a connection 
+to another link. Linked list is the second most-used data structure after array.

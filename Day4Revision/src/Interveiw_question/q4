@@ -1,0 +1,64 @@
+
+
+Ques 4: Difference between Iterator and ListIterator
+
+Ans ===>
+
+1) Iterator : An Iterator is an interface in Java and we can traverse the elements of a list in a forward direction.
+   ListIterator : whereas a ListIterator is an interface that extends the Iterator interface and we can traverse the elements 
+                  in both forward and backward directions. 
+                  
+2) Iterator : An Iterator can be used in these collection types like List, Set, and Queue.
+   ListIterator : whereas ListIterator can be used in List collection only. 
+   
+3) Iterator : The important methods of Iterator interface are hasNext(), next() and remove(). 
+   ListIterator : whereas important methods of ListIterator interface are add(), hasNext(), hasPrevious() and remove(). 
+   
+4) Syntax for Iterator : public interface Iterator<E>  
+   Syntax for ListIterator : public interface ListIterator<E> extends Iterator<E>      
+   
+5) Example : 
+   1) Iterator :
+     -----------
+     
+    import java.util.*;
+	public class IteratorTest {
+	   public static void main(String[] args) {  
+	      List<String> listObject = new ArrayList<String>();
+	      listObject.add("India");
+	      listObject.add("Australia");
+	      listObject.add("England");
+	      listObject.add("Bangladesh");
+	      listObject.add("South Africa");
+	      Iterator it = listObject.iterator();
+	      while (it.hasNext()) {
+	         System.out.println(it.next());
+	      }
+	   }
+	}    
+	
+	
+	2) ListIterator :
+	   --------------
+	
+	import java.util.*;
+	public class ListIteratorTest {
+	   public static void main(String[] args) {
+	      List<String> listObject = new ArrayList<String>();
+	      listObject.add("Java");
+	      listObject.add("Selenium");
+	      listObject.add("Python");
+	      listObject.add("Java Script");
+	      listObject.add("Cloud Computing");
+	      ListIterator it = listObject.listIterator();
+	      System.out.println("Iterating the elements in forward direction: ");
+	      while (it.hasNext()) {
+	         System.out.println(it.next());
+	      }
+	      System.out.println("--------------------------------------------");
+	      System.out.println("Iterating the elements in backward direction: ");
+	      while (it.hasPrevious()) {
+	         System.out.println(it.previous());
+	      }
+	   }
+	}
