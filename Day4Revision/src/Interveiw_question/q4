@@ -2,7 +2,7 @@
 
 Ques 4: Difference between Iterator and ListIterator
 
-Ans ===>
+ans:
 
 1) Iterator : An Iterator is an interface in Java and we can traverse the elements of a list in a forward direction.
    ListIterator : whereas a ListIterator is an interface that extends the Iterator interface and we can traverse the elements 
