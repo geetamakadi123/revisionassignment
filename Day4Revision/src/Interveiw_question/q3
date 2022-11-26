@@ -2,9 +2,7 @@
 
 Ques 3: What are fail-fast and fail-safe collection iterations
 
-Ques 3: What are fail-fast and fail-safe collection iterations ?
-
-Ans==>
+ans:
   Collection supports two types of iterators; Fail Fast and Fail Safe. These iterators are very useful in exception handling.
 
    Fail Fast : The Fail Fast system is a system that shuts down immediately after an error is reported. All the operations will be aborted instantly in it.
