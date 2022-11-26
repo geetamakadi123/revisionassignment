@@ -1,0 +1,31 @@
+
+
+Ques 3: What are fail-fast and fail-safe collection iterations
+
+Ques 3: What are fail-fast and fail-safe collection iterations ?
+
+Ans==>
+  Collection supports two types of iterators; Fail Fast and Fail Safe. These iterators are very useful in exception handling.
+
+   Fail Fast : The Fail Fast system is a system that shuts down immediately after an error is reported. All the operations will be aborted instantly in it.
+   
+   Fail Safe : The Fail Safe is a system that continues to operate even after an error or fail has occurred. These systems do not abort 
+               the operations instantly; instead, they will try to hide the errors and will try to avoid failures as much as possible.
+   
+1) Fail Fast Iterator : It throws a ConcurrentModificationException in modifying the object during the iteration process.
+   Fail safe Iterator : It does not throw Exception.
+   
+2) Fail Fast Iterator :	No clone object is created during the iteration process.
+   Fail safe Iterator : A copy or clone object is created during the iteration process.
+   
+3) Fail Fast Iterator : It requires low memory during the process.
+   Fail safe Iterator : It requires more memory during the process.
+  
+4) Fail Fast Iterator : It does not allow modification during iteration.    
+   Fail safe Iterator : It allows modification during the iteration process.
+   
+5) Fail Fast Iterator : Performance is fast.	
+   Fail safe Iterator : It is slightly slower than Fail Fast.   
+   
+6) Fail Fast Iterator : Examples-->	HashMap, ArrayList, Vector, HashSet, etc	                             
+   Fail safe Iterator : CopyOnWriteArrayList, ConcurrentHashMap, etc.

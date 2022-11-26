@@ -1,0 +1,21 @@
+
+
+  Ques 2: Why collections are used in java if everything can be implemented using Array?
+
+  
+  Ques 2: Why collections are used in java if everything can be implemented using Array?
+
+Ans==> 
+
+   1) In order to store multiple values or objects of the same type, Java provides two types of data structures namely Array and Collection.
+   
+   2) Array- Arrays are fixed in size i.e once the array with the specific size is declared then we can't alter its size afterward.
+      Collection - The collection is dynamic in size i.e based on requirement size could be get altered even after its declaration.
+      
+   3) Array - Arrays due to fast execution consumes more memory and has better performance.
+      Collection - Collections, on the other hand, consume less memory but also have low performance as compared to Arrays.
+      
+   4) Array - 	Arrays can hold the only the same type of data in its collection i.e only homogeneous data types elements are allowed in case of arrays.
+      Collection - Collection, on the other hand, can hold both homogeneous and heterogeneous elements.
+          
+      That's why collections are beneficial for developer implementing the work. Collections are minimize lots of developers works.
