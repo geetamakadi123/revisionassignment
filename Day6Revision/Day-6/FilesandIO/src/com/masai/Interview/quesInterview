@@ -1,0 +1,43 @@
+Ques 1: Name some important classes available in java.io package
+Ans: This package contains important classes like BufferedReader, BufferedWriter, File, InputStream, 
+OutputStream, etc.
+
+Ques 2: Difference between FileReader and BufferedFileReader
+
+FileReader:  
+FileReader is not buffered.
+Every time FileReader.read() is called a call is made to read a system file.
+FileReader.read()
+reads 2 byte (16-bit) at a time.
+A FileReader obtains  characters from a file in a file system.
+And does not supports mark and reset methods.
+FileReader is slower as compared to BufferedReader.
+
+BufferedFileReader
+BufferedReader is buffered.
+BufferedReader reads characters from another Reader (Eg - FileReader)
+when BufferedReader.read() is called mostly data is read from the buffer.
+When data is not available available in buffer a call is made to read system file and 
+lot of characters are kept in buffer.
+BufferedReader is much faster as compared to FileReader.
+-----------------------------------------------------------------------------------
+Ques 3: What is the most efficient way to read the content of a text file according to you
+in java
+Ans: Using scanner to read text file in java
+If you want to read file line by line or based on some java regular expression, Scanner is the class to use. 
+Scanner breaks its input into tokens using a delimiter pattern, which by default matches whitespace
+
+-------------------------------------------------------------------------------------
+
+Ques 4: How to process binary file using java (i.e. reducing the pixels an image file).
+Give the rough idea on how would you process it using inbuild library/external libraries
+in java
+--------------------------------------------------------------------------------------
+
+Ques 5: Why there are unchecked exceptions are available in java if not complain by
+compiler. Why this segregation of checked and unchecked exceptioins.
+
+-------------------------------------------------------------------------------------
+
+Ques 6: Can you throw another exception from a Catch block. Write an example if yes
+Ans:   No. You cannot throw the exception and also catch it in the same method.
