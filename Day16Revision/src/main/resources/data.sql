@@ -1,4 +1,4 @@
-insert into admin (id,address, password, role, user_name, email) values (1001, 'Pune','$2a$12$whvmK7S0JHdyz8Nj3fiL7.etoy6xDTsgp22VF3Ki130XUvUzX6uoS', 'ADMIN', 'Tushar', 'tushar@gmail.com');
+insert into admin (id,address, password, role, user_name, email) values (1001, 'Nagpur','$2a$12$whvmK7S0JHdyz8Nj3fiL7.etoy6xDTsgp22VF3Ki130XUvUzX6uoS', 'ADMIN', 'Geeta', 'tushar@gmail.com');
 
 insert into student 
 (id, address, password, role, user_name, email) 
